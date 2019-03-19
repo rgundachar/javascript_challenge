@@ -1,27 +1,51 @@
-# UFO-javaScript-HW
+# Unit 14 | Assignment - JavaScript and DOM Manipulation
 
-In this assignment, I have written a javaScript code that will create a table dynamically using the dataset that was provided to us. Th dataset is about UFO sightings in the United States.
+## Background
 
-Level 1: Automatic Table and Date Search
+WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
 
-- Here, I have created a basic HTML web page.
-- Appended a table with the following columns to the webpage which has new rows of data for each UFO sighting.
-    - Date/time
-    - City
-    - State
-    - Country
-    - Shape
-    - Comment
-- Created an input tag which would filter the date/time column according to the provided input and render the filtered table to the webpage.
+There is just one tiny problem though... our collection is too large to search through manually. Even our most dedicated followers are complaining that they are having trouble locating specific reports in this mess.
 
-Level 2: Multiple Search Categories
-- Here, I have created multiple input tags to filter the data.
-- Created input tags for 
-    - date/time
-    - City
-    - State
-    - Country
-    - Shape
-- Based on the search criteria, the filtered table would be generated.
+That's why we are hiring you. We need you to write code that will create a table dynamically based upon a [dataset we provide](StarterCode/static/js/data.js). We also need to allow our users to filter the table data for specific values. There's a catch though... we only use pure JavaScript, HTML, and CSS, and D3.js on our web pages. They are the only coding languages which can be trusted.
 
+You can handle this... right? The planet Earth needs to know what we have found!
 
+## Your Task
+
+### Level 1: Automatic Table and Date Search
+
+* Create a basic HTML web page or use the [index.html](StarterCode/index.html) file provided (we recommend building your own custom page!).
+
+* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+
+  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
+
+* Use a date form in your HTML document and write JavaScript code that will listen for events and search through the `date/time` column to find rows that match user input.
+
+### Level 2: Multiple Search Categories (Optional)
+
+* Complete all of Level 1 criteria.
+
+* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+
+  1. `date/time`
+  2. `city`
+  3. `state`
+  4. `country`
+  5. `shape`
+
+- - -
+
+### Dataset
+
+* [UFO Sightings Data](StarterCode/static/js/data.js)
+
+- - -
+
+**Good luck!**
+
+- - -
+
+### Copyright
+
+Data Boot Camp © 2018. All Rights Reserved.
